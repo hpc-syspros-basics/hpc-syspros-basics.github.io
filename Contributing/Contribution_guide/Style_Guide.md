@@ -21,6 +21,24 @@ You can also have other headers underneath the main header. Secondary headers wi
 ### This is a tertiary header
 ```
 
+## Text
+
+Text can be modified in several ways, you can bold, italalicize, or strikethough portions of text.
+
+Additionally for calling out commands or files (eg. `sync` or `/etc/hosts`) in descriptions outside of code blocks you can use inline code blocks to seperate them out from the rest of the text for easy reading.
+
+## Code Blocks
+
+
+```bash
+echo "How are you today?
+exit 0"
+```
+
+## Tables
+
+## Lists
+
 
 ## Notes
 
