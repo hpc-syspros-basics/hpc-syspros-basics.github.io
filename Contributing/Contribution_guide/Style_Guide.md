@@ -28,7 +28,7 @@ You can also write notes or info boxes to provide extra context or helpful notes
 
 
 ```note
-this is a note
+this is a note, ~~it can be pointless~~
 ```
 
 
@@ -40,7 +40,7 @@ Notes are quite helpful for providing context
 You can write warning boxes when you want to alert the reader that that there is important information to consider before they act or execute a command
 
 ```warning
-You have been warned!
+**You have been warned!**
 ```
 
 ```warning
