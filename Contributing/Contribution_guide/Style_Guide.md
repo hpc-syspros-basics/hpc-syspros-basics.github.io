@@ -43,7 +43,6 @@ You can write warning boxes when you want to alert the reader that that there is
 You have been warned!
 ```
 
-
 ```warning
 Warning boxes should be used sparingly and only when the reader should take caution before proceeding further
 ```
