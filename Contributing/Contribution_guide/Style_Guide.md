@@ -21,20 +21,16 @@ You can also have other headers underneath the main header. Secondary headers wi
 ### This is a tertiary header
 ```
 
-## This is a secondary header
-
-### This is a tertiary header
-
 
 ## Notes
 
 You can also write notes or info boxes to provide extra context or helpful notes when needed using the following syntax
 
-```
+
 ```note
 this is a note
 ```
-```
+
 
 ```note
 Notes are quite helpful for providing context
@@ -43,11 +39,10 @@ Notes are quite helpful for providing context
 ## Warnings
 You can write warning boxes when you want to alert the reader that that there is important information to consider before they act or execute a command
 
-```
 ```warning
 You have been warned!
 ```
-```
+
 
 ```warning
 Warning boxes should be used sparingly and only when the reader should take caution before proceeding further
@@ -56,10 +51,8 @@ Warning boxes should be used sparingly and only when the reader should take caut
 ## Danger!
 Danger boxes should be used very sparingly and should alert the reader that they either should not do what is suggested in the box, or should avoid it all together.
 
-```
 ```danger
 Danger Dr. Smith! Do not use `rm -rf \`
-```
 ```
 
 ```danger
@@ -67,6 +60,6 @@ Always backup important system files before you decide to blow them away
 ```
 
 ---
-### References
+# References
 
 [Jekyll RTD Theme documentation](https://jekyll-rtd-theme.rundocs.io/)
