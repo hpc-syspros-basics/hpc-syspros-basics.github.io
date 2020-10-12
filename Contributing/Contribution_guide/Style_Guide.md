@@ -31,7 +31,7 @@ Additionally for calling out commands or files (eg. `sync` or `/etc/hosts`) in d
 
 
 ```bash
-echo "How are you today?
+echo "How are you today?"
 exit 0
 ```
 
