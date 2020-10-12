@@ -32,10 +32,16 @@ Additionally for calling out commands or files (eg. `sync` or `/etc/hosts`) in d
 
 ```bash
 echo "How are you today?
-exit 0"
+exit 0
 ```
 
 ## Tables
+
+| Tables      | Are        | Useful   |
+|-------------|:----------:|---------:|
+|SHAS         | 470        | 11,280   |
+|SMEM         | 7          | 168      |
+|SKNL         | 20         | 5,440    |
 
 ## Lists
 
