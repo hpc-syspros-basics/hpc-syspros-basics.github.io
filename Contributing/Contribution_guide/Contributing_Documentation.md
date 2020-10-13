@@ -6,12 +6,13 @@ sort: 1
 
 ## Contributing improvements and new content
 
-In order to contribute to this project just fork this repository and makes changes to your copy of the repo and make changes you think are necessary. When you are ready to submit your work, you can submit a pull reqeust to notify the project editors that you have proposed new changes or improvements to the current documentation. The project editors will then either suggest changes to improve the pull request or they may accept the pull request as written and pull in your changes into the hpc-syspros-basic repo. 
+In order to contribute to this project fork this repository and make changes you think are helpful. When you are finished with your work, you can submit a pull reqeust to notify the project editors that you have proposed new changes or improvements to the current documentation. The project editors will then either suggest changes to improve the pull request or they may accept the pull request as written and pull in your changes into the hpc-syspros-basic repo. 
 
-All those who submit pull requests will be recognized in our contributing authors section, and you may be asked to evaluate any further changes to the topics that you have in the past contributed to.
+All those who submit pull requests that are accepted into the hpc-syspros-basic repo will be recognized in our contributing authors section, and you may be asked to evaluate any further changes to the topics that you have in the past contributed to.
+
+Additionally if you have any ideas on other topics that should be covered in this knowledge repository please send us a note about what topic you think should be included. Remember to keep in mind the level of knowledge the audience we are targetting has, these topics should be at the basic level and not targeting advanced use cases or topics. Please see our [Audience Section](https://hpc-syspros-basics.github.io/Contributing/Contribution_guide/Audience.html) for guidelines.
 
 ## Contributing towards Editing
 
-In addition to needing help filling out the content of the various topics that are covered, we also need help with editing the content on these pages. We encourage you to send us a note if you have any interest in helping us edit the content currently on the website. If you decide you would like to help with editing just detail in your note to us what specific domain interests you have in High Performance Computing and any strengths you have in subject matter knowledge.
-
+In addition to needing help filling out the content of the various topics that are covered, we also need help with editing the content on these pages. We encourage you to send us a note if you have any interest in helping us edit the content currently in the repository. If you decide you would like to help with editing just explain in your note to us what specific domain interests you have in High Performance Computing and any strengths you have in subject matter knowledge.
 
