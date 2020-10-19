@@ -3,7 +3,8 @@
 ## Topics
 - Introduction to HPC
 - Designing a cluster
-- HPC Storage
+- Introduction to HPC Storage
+- Parallel Filesystems
 - Cluster Stack Basics
 - Provisioning
 - Introduction to configuration management
