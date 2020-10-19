@@ -25,3 +25,8 @@ Executing the make test step in the previous example is optional but recommended
 ```
 
 After following the above installation steps the script will be installed as `/usr/sbin/nhc`, the configuration file and check scripts in `/etc/nhc`, and the helper scripts in `/usr/libexec/nhc`.
+
+---
+## References
+
+[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)

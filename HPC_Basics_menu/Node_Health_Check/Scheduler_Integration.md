@@ -47,4 +47,9 @@ Another possible caveat to this functionality is that it only works if the canon
 * || HOSTNAME="$HOSTNAME_S"
 ```
 
-This will cause the offline/online helpers to use the shorter hostname when invoking pbsnodes. This will NOT, however, change how the hostnames are matched in the NHC configuration, so you'll still need to use FQDN matching there.
+This will cause the offline/online helpers to use the shorter hostname when invoking pbsnodes. This will NOT, however, change how the hostnames are matched in the NHC configuration, so you will still need to use FQDN matching there.
+
+---
+## References
+
+[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)

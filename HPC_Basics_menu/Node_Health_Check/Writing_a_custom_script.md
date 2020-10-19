@@ -43,3 +43,8 @@ Once you are done with the script move it to `/etc/nhc/scripts/` so that we can 
 /^s(has|sky|gpu|mem)/ || check_PSM_contexts 24
 ```
 This will now ensure before starting a job that the node has at least 24 contexts available, or that if a node has exhasted the number of hardware contexts that no further jobs start on the node until the hardware contexts free up again.
+
+---
+## References
+
+[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)

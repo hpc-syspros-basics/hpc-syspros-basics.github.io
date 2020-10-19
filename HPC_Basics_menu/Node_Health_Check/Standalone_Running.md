@@ -22,3 +22,8 @@ The previous command will execute the node health check script until NHC encount
 ```
 
 The previous command adds the `-a` flag which tells the node health check to not stop at the first check failure, and instead tells it to execute all the checks regardless of if the check fails or not, giving us a more complete view or what needs to be adjusted or fixed on a node in order to make it healthy again.
+
+---
+## References
+
+[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)

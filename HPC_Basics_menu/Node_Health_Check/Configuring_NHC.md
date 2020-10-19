@@ -126,3 +126,8 @@ We also have a few command and service checks as well
 /^s(has|sky|gpu|mem|knl)/ || check_ps_service -d mmfsd gpfs-summit.mount 
 ```
 So we check that the Omnipath Firmware version on the node Host Fabric Interface is at a certain version. Most importantly we check to ensure that NTP is synchronized on a node by querying for a string out of the output of timedatectl to ensure that clocks are in sync across the cluster. We also have two service checks, one to ensure that the GPFS monitoring daemon is not running on the node, and another check to ensure that our gpfs mounting service is running to provide fast scratch storage on the node.
+
+---
+## References
+
+[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
