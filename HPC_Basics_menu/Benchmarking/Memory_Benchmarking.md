@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Benchmarking memory
+# Memory Benchmarks
 
 ## STREAM
 

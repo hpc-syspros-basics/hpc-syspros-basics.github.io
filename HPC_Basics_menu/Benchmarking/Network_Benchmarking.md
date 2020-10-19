@@ -2,8 +2,7 @@
 sort: 5
 ---
 
-# Network Benchmarking
-
+# Network Benchmarks
 
 
 ## OSU MPI Benchmarks

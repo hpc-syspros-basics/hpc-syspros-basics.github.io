@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Benchmarking the CPU
+# CPU Benchmarks
 
 ## HPL
 

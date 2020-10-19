@@ -2,7 +2,7 @@
 sort: 6
 ---
 
-# Parallel File System Benchmarking
+# Parallel File System Benchmarks
 
 ## ior
 
