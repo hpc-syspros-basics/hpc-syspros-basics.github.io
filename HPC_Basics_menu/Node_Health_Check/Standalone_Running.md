@@ -15,7 +15,9 @@ To run NHC as a standalone process to check a node's health you can just run the
 If you installed the NHC binary in another location, you will need to adjust the above command to point to the path where you install NHC
 ```
 
-The previous command will execute the node health check script until NHC encounters a check that fails. When the node health check script encounters it's first error it will print out the check that it failed against and will imediately exit out. This may be desired, but many users may want to find all checks that would fail for a node and be informed about all the changes that need to be made or addressed on a node in order make the node healthy again. To check all components as specified in the node health check configuration we can do the following:
+The previous command will execute the node health check script until NHC encounters a check that fails. When the node health check script encounters it's first error it will print out the check that it failed against and will imediately exit out. 
+
+Having the command exit on the first failure may be desired, but many users may want to find all checks that would fail for a node and be informed about all the errors on a node that need to be addressed in order make the node healthy again. To check all components as specified in the node health check configuration we can do the following:
 
 ```
 /usr/sbin/nhc -a
