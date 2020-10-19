@@ -30,7 +30,7 @@ yum install lbnl-nhc-1.4.2-1.el7.noarch.rpm
 # Or if you are installing into a OS tree for stateless installs
 yum --installroot=/stateless/install/location lbnl-nhc-1.4.2-1.el7.noarch.rpm
 ```
-```note
+```warning
 There are still no pre-built packages for version 8 of Redhat based operating systems and as such you will need to build the binary from source for newer versions.
 ```
 
