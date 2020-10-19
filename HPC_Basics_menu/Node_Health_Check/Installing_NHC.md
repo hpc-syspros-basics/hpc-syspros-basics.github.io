@@ -36,7 +36,7 @@ There are still no pre-built packages for version 8 of Redhat based operating sy
 
 ## Verifying installation
 
-After following the above installation steps the script, `nhc`,  will be installed as `/usr/sbin/nhc`, the configuration file and check scripts in `/etc/nhc`, and the helper scripts in `/usr/libexec/nhc`.
+After following the above installation steps the script will be installed as `/usr/sbin/nhc`, the configuration file and check scripts in `/etc/nhc`, and the helper scripts in `/usr/libexec/nhc`.
 
 ---
 ## References
