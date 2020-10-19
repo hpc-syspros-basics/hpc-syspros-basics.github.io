@@ -20,12 +20,18 @@ Executing the make test step in the previous example is optional but recommended
 ```
 
 ## Installing from pre-built RPM packages
+
+You can find the prebuilt packages for the latest release of NHC for Redhat based operating systems on the github page for [NHC](https://github.com/mej/nhc/releases/).
+
 ```
 # If installing on a stateful node
 yum install lbnl-nhc-1.4.2-1.el7.noarch.rpm
 
 # Or if you are installing into a OS tree for stateless installs
 yum --installroot=/stateless/install/location lbnl-nhc-1.4.2-1.el7.noarch.rpm
+```
+```note
+There are still no pre-built packages for version 8 of Redhat based operating systems and as such you will need to build the binary from source for newer versions.
 ```
 
 ## Verifying installation
