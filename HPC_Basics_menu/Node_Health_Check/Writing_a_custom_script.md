@@ -52,3 +52,4 @@ This will now ensure before starting a job that the node has at least 24 context
 ## References
 
 1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+2. [NHC Tips and Best Practices for Checks](https://github.com/mej/nhc#tips-and-best-practices-for-checks)
