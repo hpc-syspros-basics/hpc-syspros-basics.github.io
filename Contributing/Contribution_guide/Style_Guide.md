@@ -116,19 +116,24 @@ Always backup important system files before you decide to blow them away
 ```note
 text here
 ```
+~~~~
 
+~~~~
 ```warning
 text here
 ```
+~~~~
 
+~~~~
 ```tip
 text here
 ```
+~~~~
 
+~~~~
 ```danger
 text here
 ```
-
 ~~~~
 
 
