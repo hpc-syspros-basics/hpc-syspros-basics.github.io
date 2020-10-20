@@ -47,4 +47,4 @@ This will now ensure before starting a job that the node has at least 24 context
 ---
 ## References
 
-[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)

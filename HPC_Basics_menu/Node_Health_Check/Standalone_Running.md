@@ -28,4 +28,4 @@ The previous command adds the `-a` flag which tells the node health check to not
 ---
 ## References
 
-[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
