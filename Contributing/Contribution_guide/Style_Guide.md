@@ -23,7 +23,7 @@ You can also have other headers underneath the main header. Secondary headers wi
 
 ## Text
 
-Text can be modified in several ways, you can bold, italalicize, or strikethough portions of text.
+Text can be modified in several ways, you can **bold**, *italalicize*, or ~~strikethough~~ portions of text.
 
 Additionally for calling out commands or files (eg. `sync` or `/etc/hosts`) in descriptions outside of code blocks you can use inline code blocks to seperate them out from the rest of the text for easy reading.
 
@@ -37,14 +37,43 @@ exit 0
 
 ## Tables
 
-| Tables      | Are        | Useful   |
+Below you will find an example of a formatted table. In the second column you will notice that we have the column values center aligned, and the third column we have right aligned.
+
+| Partition   | # Nodes    | # CPUs   |
 |-------------|:----------:|---------:|
 |SHAS         | 470        | 11,280   |
 |SMEM         | 7          | 168      |
 |SKNL         | 20         | 5,440    |
 
+```
+| Partition   | # Nodes    | # CPUs   |
+|-------------|:----------:|---------:|
+|SHAS         | 470        | 11,280   |
+|SMEM         | 7          | 168      |
+|SKNL         | 20         | 5,440    |
+```
+
 ## Lists
 
+You can include both unordered and ordered lists like seen below as well
+
+1. This is the first item
+2. Here is a second item
+3. Finally a third item
+
+- First unordered item
+- Second unordered item
+- Final unordered item
+
+```
+1. This is the first item
+2. Here is a second item
+3. Finally a third item
+
+- First unordered item
+- Second unordered item
+- Final unordered item
+```
 
 ## Notes
 
