@@ -25,15 +25,27 @@ You can also have other headers underneath the main header. Secondary headers wi
 
 Text can be modified in several ways, you can **bold**, *italalicize*, or ~~strikethough~~ portions of text.
 
+```
+Text can be modified in several ways, you can **bold**, *italalicize*, or ~~strikethough~~ portions of text.
+```
+
 Additionally for calling out commands or files (eg. `sync` or `/etc/hosts`) in descriptions outside of code blocks you can use inline code blocks to seperate them out from the rest of the text for easy reading.
 
 ## Code Blocks
 
+You can also insert code blocks into the documentation and even get some syntax highlighting
 
 ```bash
 echo "How are you today?"
 exit 0
 ```
+
+~~~~
+```bash
+echo "How are you today?"
+exit 0
+```
+~~~~
 
 ## Tables
 
@@ -114,6 +126,12 @@ Always backup important system files before you decide to blow them away
 ~~~~
 # examples of Notes, Warnings, Tips, and Danger cards
 ```note
+text here
+```
+~~~~
+
+~~~~
+```tip
 text here
 ```
 ~~~~
