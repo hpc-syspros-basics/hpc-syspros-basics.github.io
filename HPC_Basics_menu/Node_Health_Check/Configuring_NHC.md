@@ -210,6 +210,7 @@ Here we have a section full of filesystem checks to ensure that various filesyst
 Finally we have a final process check that ensures that the ssh server daemon is owned by the root user, and that any rogue processes, or processes owned by a user that has not been authorized by the resource manager to run on the server is logged out to the NHC log file and additionally logged out to the system log.
 
 This is just a small example of what is possible with the NHC checks, and additionally you can write your own checks as well to fit any edge cases you may encounter with various pieces of hardware or processes and services you may be running at your own site. You can read more about the various other built-in checks on the NHC github documentation pages included as references at the bottom of this article.
+
 ---
 ## References
 
