@@ -52,4 +52,5 @@ This will cause the offline/online helpers to use the shorter hostname when invo
 ---
 ## References
 
-[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+2. [Torque Node Health Check Documentation](http://docs.adaptivecomputing.com/torque/6-1-2/adminGuide/torque.htm#topics/torque/12-troubleshooting/computeNodeHealthCheck.htm)
