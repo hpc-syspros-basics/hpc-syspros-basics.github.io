@@ -4,7 +4,7 @@ sort: 2
 
 # Configuring NHC
 
-After installing NHC we can start to put in some configuration to have the script start verifing the health of servers. The starting configuration is meant to highlight the range of checks that you could have NHC check to ensure a node is healthy before the server will run jobs.
+After installing NHC we can start to put in some configuration to have the script start verifing the health of nodes. The starting configuration is meant to highlight the range of checks that you could have NHC check to ensure a node is healthy before it will run jobs.
 
 When configuring your `nhc.conf` file you should keep in mind that checks are executed from the top of the file down. Therefore you may want to place the checks that you care about most at the top of the file, and less important checks near the bottom of the configuration file. Generally hardware checks should come first followed by checks for software, BIOS configuration, filesystems, and process checks. To illustrate this we can look at the following configuration:
 
@@ -56,7 +56,7 @@ sgpu* || check_dmi_data_match "BIOS Information: Version: 2.11.0"
 smem* || check_dmi_data_match "BIOS Information: Version: 2.8.1"
 sknl* || check_dmi_data_match "BIOS Information: Version: 2.3.0"
 
-# Check that LDAP is resolving correctly on the server
+# Check that LDAP is resolving correctly on the node
 * || check_cmd_status -t 5 -r 0 id rcops
 
 # Check MCElog for any uncorrectable errors in the last 24h
@@ -152,7 +152,7 @@ sknl* || check_dmi_data_match "BIOS Information: Version: 2.3.0"
 In the section of the configuration above we check for the BIOS version that is installed on a node by using the dmi data match check which queries the results of dmidecode in order to verify the installed BIOS version on the motherboard.
 
 ```
-# Check that LDAP is resolving correctly on the server
+# Check that LDAP is resolving correctly on the node
 * || check_cmd_status -t 5 -r 0 id rcops
    
 # Check MCElog for any uncorrectable errors in the last 24h
@@ -207,7 +207,7 @@ Here we have a section full of filesystem checks to ensure that various filesyst
 * || check_ps_userproc_lineage log syslog
 ```
 
-Finally we have a final process check that ensures that the ssh server daemon is owned by the root user, and that any rogue processes, or processes owned by a user that has not been authorized by the resource manager to run on the server is logged out to the NHC log file and additionally logged out to the system log.
+Finally we have a final process check that ensures that the ssh server daemon is owned by the root user, and that any rogue processes, or processes owned by a user that has not been authorized by the resource manager to run on the node is logged out to the NHC log file and additionally logged out to the system log.
 
 This is just a small example of what is possible with the NHC checks, and additionally you can write your own checks as well to fit any edge cases you may encounter with various pieces of hardware or processes and services you may be running at your own site. You can read more about the various other built-in checks on the NHC github documentation pages included as references at the bottom of this article.
 
