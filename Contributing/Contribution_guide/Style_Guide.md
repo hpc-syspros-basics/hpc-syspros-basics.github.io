@@ -111,6 +111,27 @@ Danger Dr. Smith! Do not use `rm -rf \`
 Always backup important system files before you decide to blow them away
 ```
 
+```
+# examples of Notes, Warnings, Tips, and Danger cards
+```note
+text here
+```
+
+```warning
+text here
+```
+
+```tip
+text here
+```
+
+```danger
+text here
+```
+
+```
+
+
 ---
 # References
 
