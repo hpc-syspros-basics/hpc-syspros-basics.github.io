@@ -21,7 +21,7 @@ Executing the make test step in the previous example is optional but recommended
 
 ## Installing from pre-built RPM packages
 
-You can find the prebuilt packages for the latest release of NHC for Redhat based operating systems on the github page for [NHC](https://github.com/mej/nhc/releases/).
+You can find the prebuilt packages for the latest release of NHC for Redhat based operating systems on the github page for [NHC Releases](https://github.com/mej/nhc/releases/).
 
 ```
 # If installing on a stateful node
@@ -41,4 +41,5 @@ After following the above installation steps the script will be installed as `/u
 ---
 ## References
 
-[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+2. [NHC Releases](https://github.com/mej/nhc/releases/)
