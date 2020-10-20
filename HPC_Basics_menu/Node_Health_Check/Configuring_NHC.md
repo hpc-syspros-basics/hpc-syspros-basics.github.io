@@ -214,8 +214,6 @@ This is just a small example of what is possible with the NHC checks, and additi
 ---
 ## References
 
-[NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
-
-[NHC Configuration](https://github.com/mej/nhc#configuration)
-
-[NHC Built-in Checks](https://github.com/mej/nhc#built-in-checks)
+1. [NHC Documentation](https://github.com/mej/nhc/blob/master/README.md)
+2. [NHC Configuration](https://github.com/mej/nhc#configuration)
+3. [NHC Built-in Checks](https://github.com/mej/nhc#built-in-checks)
