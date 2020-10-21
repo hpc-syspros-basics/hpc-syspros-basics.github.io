@@ -15,7 +15,7 @@ HealthCheckProgram=/usr/sbin/nhc
 HealthCheckInterval=300
 ```
 
-This will execute NHC every 5 minutes.
+This will execute NHC every 300 seconds while a job is running as well as at the beginning and end of a job.
 
 ## TORQUE/PBS Integration
 
