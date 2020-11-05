@@ -98,7 +98,7 @@ ssky* || check_hw_eth eno16
 # Check for rogue processes, if found log out to the NHC log and system log
 * || check_ps_userproc_lineage log syslog
 ```
-In this example we start with some environment variables that are setup. Notably that the resource manager we are using is Slurm, and that we have set a Timemout value of 15 seconds, meaning if NHC can't evaluate all checks within 15 seconds, the node will be marked down until NHC can run through all the checks. 
+In this example we start with some environment variables that are setup. Notably that the resource manager we are using is Slurm, and that we have set a Timemout value of 15 seconds, meaning if NHC can't evaluate all checks within 15 seconds, the node will be marked down until NHC can run through all the checks.
 
 We then go through some hardware checks, particulalry for our CPUs on the machines.
 ```
@@ -143,7 +143,7 @@ Additionally we also check that GPFS is mounted at `/gpfs/summit` and is availab
 ```
 # Check that the nodes have the specified BIOS version
 shas* || check_dmi_data_match "BIOS Information: Version: 2.11.0"
-ssky* || check_dmi_data_match "BIOS Information: Version: 1.4.9" 
+ssky* || check_dmi_data_match "BIOS Information: Version: 1.4.9"
 sgpu* || check_dmi_data_match "BIOS Information: Version: 2.11.0"
 smem* || check_dmi_data_match "BIOS Information: Version: 2.8.1"
 sknl* || check_dmi_data_match "BIOS Information: Version: 2.3.0"
@@ -174,7 +174,7 @@ In this section we ensure that each node has the proper network interfaces confi
 ```
 # Filesystem checks
 * || check_fs_mount_rw -f /
-* || check_fs_free /dev/mapper/vg_root-lv_root 5% 
+* || check_fs_free /dev/mapper/vg_root-lv_root 5%
 * || check_fs_ifree /dev/mapper/vg_root-lv_root 1k
    
 * || check_fs_free /var 5% 
@@ -190,7 +190,7 @@ In this section we ensure that each node has the proper network interfaces confi
 * || check_file_test -r -e -f /beegfs/pl-active/.sentinel
    
 * || check_fs_mount_rw -f /scratch/local
-* || check_fs_free /scratch/local 1%  
+* || check_fs_free /scratch/local 1%
 * || check_fs_ifree /scratch/local 100
    
 * || check_fs_mount_rw -t "nfs" -s "isilon1:/ifs/curc/projects" -F "/projects"
