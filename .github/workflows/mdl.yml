@@ -1,8 +1,2 @@
 - name: MarkdownLint mdl Action
   uses: actionshub/markdownlint@1.2.2
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
