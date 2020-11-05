@@ -32,3 +32,4 @@ MD040: false
 # Rules by tags #
 #################
 blank_lines: false  # Error on blank lines
+fenced-code-language: false
