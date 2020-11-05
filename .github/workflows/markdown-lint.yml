@@ -33,4 +33,3 @@ MD029: false                  # Ordered list item prefix
 # Rules by tags #
 #################
 blank_lines: false  # Error on blank lines
-fenced-code-language: false
