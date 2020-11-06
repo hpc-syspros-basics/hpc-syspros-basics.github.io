@@ -1,5 +1,3 @@
-[![GitHub Super-Linter](https://github.com/hpc-syspros-basics/hpc-syspros-basics.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
-
 # HPC Basics by SIGHPCSYSPROS
 
 ## Topics
