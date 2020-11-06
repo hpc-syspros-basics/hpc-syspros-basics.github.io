@@ -47,3 +47,5 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: master
           VALIDATE_MARKDOWN: true
+          LOG_LEVEL: ERROR
+          MARKDOWN_CONFIG_FILE: markdown-lint.yaml
