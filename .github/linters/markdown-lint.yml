@@ -19,16 +19,16 @@
 # Rules by id #
 ###############
 MD004: false                  # Unordered list style
-MD040: false
-MD048: false
 MD007:
   indent: 2                   # Unordered list indentation
+MD009: false                  # Disable trailing whitespace check since this will likely just aggravate people
 MD013:
   line_length: 800            # Line length 80 is far to short
 MD026:
-  punctuation: ".,;:!。，；:"  # List of not allowed
+  punctuation: ".,;:!。，；:"  # List of not allowed punctuation in headers
 MD029: false                  # Ordered list item prefix
-
+MD040: false                  # We don't really care to have syntax highlighting in code blocks
+MD048: false                  # Not using code fence style as we need it inactive to display code for generating certain MD elements i.e the sytle guide
 
 #################
 # Rules by tags #
