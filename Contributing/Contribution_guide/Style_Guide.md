@@ -4,7 +4,9 @@ sort: 3
 
 # Style Guide
 
-When writing new documentation please try to follow the style guide for adding in new content. If you don't follow the guide it will cause a delay in how quickly the content is pulled into the documentation as editors will need to adjust or correct the content.
+When writing new documentation please try to follow the style guide for adding in new content. If you don't follow the guide it will cause a delay in how quickly the content is pulled into the documentation as editors will need to adjust or correct the content. This project also uses a markdown linter to check for any overall stylistic inconsistencies and catch some common problems with syntax. For more information on what markdown rules we adhere to read to the bottom of this page for more information.
+
+[![GitHub Super-Linter](https://github.com/hpc-syspros-basics/hpc-syspros-basics.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## Headers
 At the very least you should have a main header which can be written as so below:
