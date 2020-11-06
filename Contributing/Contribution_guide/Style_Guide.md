@@ -112,7 +112,7 @@ You can write warning boxes when you want to alert the reader that that there is
 Warning boxes should be used sparingly and only when the reader should take caution before proceeding further
 ```
 
-## Danger!
+## Danger
 Danger boxes should be used very sparingly and should alert the reader that they either should not do what is suggested in the box, or should avoid it all together.
 
 ```danger
@@ -156,6 +156,6 @@ text here
 
 
 ---
-# References
+## References
 
 [Jekyll RTD Theme documentation](https://jekyll-rtd-theme.rundocs.io/)

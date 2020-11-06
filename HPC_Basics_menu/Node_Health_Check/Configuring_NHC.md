@@ -188,11 +188,11 @@ In this section we ensure that each node has the proper network interfaces confi
 
 * || check_fs_mount_rw -f /beegfs/pl-active
 * || check_file_test -r -e -f /beegfs/pl-active/.sentinel
-   
+
 * || check_fs_mount_rw -f /scratch/local
 * || check_fs_free /scratch/local 1%
 * || check_fs_ifree /scratch/local 100
-   
+
 * || check_fs_mount_rw -t "nfs" -s "isilon1:/ifs/curc/projects" -F "/projects"
 * || check_fs_mount_rw -t "nfs" -s "isilon1:/ifs/curc/home" -F "/home"
 ```
