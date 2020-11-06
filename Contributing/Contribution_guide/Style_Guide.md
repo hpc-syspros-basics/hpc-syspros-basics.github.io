@@ -154,6 +154,11 @@ text here
 ```
 ~~~~
 
+## Markdown Linter
+
+For this project we use the markdown linting capabilities offered by [Markdownlint](https://github.com/DavidAnson/markdownlint), deployed as a github action to lint all commits to the master branch of this repository. We have a markdown lint rules file within the [.github/linters directory](https://github.com/hpc-syspros-basics/hpc-syspros-basics.github.io/blob/master/.github/linters/markdown-lint.yml) with the settings that we use for various rules and rule exceptions where they are needed.
+
+A few notable rules to keep in mind are [MD003](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md003) which specifies that there can only be one H1 header in a document, and [MD026](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md026) which specifies that there should be no punctuation in a header element.
 
 ---
 ## References
