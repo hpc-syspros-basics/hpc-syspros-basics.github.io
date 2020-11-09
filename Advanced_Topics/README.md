@@ -1,8 +1,8 @@
 ---
-sort: 3
+sort: 2
 ---
 
-# Contributing
+# Advanced Topics
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
