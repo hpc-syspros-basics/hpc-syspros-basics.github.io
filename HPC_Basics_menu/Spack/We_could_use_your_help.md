@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# We could use your help!
+# We could use your help
 
 Currently we don't have any content to show here but you could change that! If you have some expertise in 
 this area please consider contributing to this section to fill in documentation for those that are just 
