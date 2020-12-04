@@ -1,5 +1,5 @@
 ---
-sort: 5
+sort: 18
 ---
 
 # Node Health Check

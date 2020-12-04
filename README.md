@@ -10,7 +10,7 @@
 - Configuration Management
 - Scheduling and Resource Management
 - Introduction to Slurm
-- Monitoring HPC systems and infracstructure components
+- Monitoring HPC systems and infrastructure components
 - HPC User support
 - High speed Networks
 - Account Management
